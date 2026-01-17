@@ -157,9 +157,8 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ## 🔗 Useful Resources
 
-- [LangChain Documentation](https://python.langchain.com/docs/get_started/introduction)
-- [Azure OpenAI Service Documentation](https://learn.microsoft.com/en-us/azure/ai-services/openai/)
-- [Azure OpenAI Python SDK](https://github.com/openai/openai-python)
+- [LangChain Documentation](https://docs.langchain.com/oss/python/integrations/chat/azure_chat_openai)
+- [Azure OpenAI in Foundry Models Documentation](https://learn.microsoft.com/en-us/azure/ai-foundry/openai/supported-languages?view=foundry&tabs=dotnet-secure%2Csecure%2Cpython-entra&pivots=programming-language-python)
 
 ## 📞 Support
 
