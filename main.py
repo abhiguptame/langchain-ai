@@ -10,8 +10,8 @@ Environment Variables Required:
 """
 
 import os
-
 from dotenv import load_dotenv
+from langchain_openai import AzureChatOpenAI
 
 # Load environment variables from .env file
 load_dotenv()
@@ -19,9 +19,6 @@ load_dotenv()
 # Retrieve Azure OpenAI configuration from environment variables
 openai_api_version = os.getenv('AZURE_OPENAI_API_VERSION')
 openai_model = os.getenv('AZURE_AI_AGENT_MODEL_DEPLOYMENT_NAME')
-
-
-from langchain_openai import AzureChatOpenAI
 
 # Initialize Azure OpenAI language model with configuration
 # Temperature of 0.6 provides a balance between creativity and consistency
